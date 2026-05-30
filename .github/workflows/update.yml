@@ -30,15 +30,15 @@ jobs:
 
       - name: 4. 提交并推送到仓库
         env:
+          GH_PAT: ${{ secrets.GH_PAT }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@://github.com"
+          git add -A
+          git diff --cached --quiet && echo "无变更" && exit 0
+          git commit -m "auto update: $(date -u '+%Y-%m-%d %H:%M:%S')"
           
-          git add 01.json
-          if git diff --staged --quiet; then
-            echo "没有检测到文件变化，跳过提交。"
-          else
-            git commit -m "自动更新: 01.json 时间戳"
-            git push
-          fi
+          # 推送到 GitHub（全量）
+          git remote set-url origin https://zouzho:${GH_PAT}@github.com/zouzho/zztvbox.git
+          git push origin HEAD:master
