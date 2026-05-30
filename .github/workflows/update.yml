@@ -23,17 +23,3 @@ jobs:
 
       - name: 运行更新脚本
         run: python3 update.py
-
-      - name: 推送更新
-        env:
-          GH_PAT: ${{ secrets.GH_PAT }}
-          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
-        run: |
-          git config user.email "bot@tvbox.local"
-          git config user.name "TVBox Bot"
-          git add -A
-          git diff --cached --quiet && echo "无变更" && exit 0
-          git commit -m "auto update: $(date -u '+%Y-%m-%d %H:%M:%S')"
-
-          git remote set-url origin https://25175:${GH_PAT}@github.com/25175/zouzho.git
-          git push origin HEAD:master
