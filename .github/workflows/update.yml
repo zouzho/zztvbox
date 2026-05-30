@@ -26,7 +26,7 @@ jobs:
 
       - name: 3. 运行 Python 脚本
         run: |
-          python 01.py
+          python update.py
 
       - name: 4. 提交并推送到仓库
         env:
