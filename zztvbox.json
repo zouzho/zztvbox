@@ -1,4 +1,80 @@
 {
+    "ads": [
+        "mimg.0c1q0l.cn",
+        "www.googletagmanager.com",
+        "www.google-analytics.com",
+        "mc.usihnbcq.cn",
+        "mg.g1mm3d.cn",
+        "mscs.svaeuzh.cn",
+        "cnzz.hhttm.top",
+        "tp.vinuxhome.com",
+        "cnzz.mmstat.com",
+        "www.baihuillq.com",
+        "s23.cnzz.com",
+        "z3.cnzz.com",
+        "c.cnzz.com",
+        "stj.v1vo.top",
+        "z12.cnzz.com",
+        "img.mosflower.cn",
+        "tips.gamevvip.com",
+        "ehwe.yhdtns.com",
+        "xdn.cqqc3.com",
+        "www.jixunkyy.cn",
+        "sp.chemacid.cn",
+        "hm.baidu.com",
+        "s9.cnzz.com",
+        "z6.cnzz.com",
+        "um.cavuc.com",
+        "mav.mavuz.com",
+        "wofwk.aoidf3.com",
+        "z5.cnzz.com",
+        "xc.hubeijieshikj.cn",
+        "tj.tianwenhu.com",
+        "xg.gars57.cn",
+        "k.jinxiuzhilv.com",
+        "cdn.bootcss.com",
+        "ppl.xunzhuo123.com",
+        "xomk.jiangjunmh.top",
+        "img.xunzhuo123.com",
+        "z1.cnzz.com",
+        "s13.cnzz.com",
+        "xg.huataisangao.cn",
+        "z7.cnzz.com",
+        "xg.huataisangao.cn",
+        "z2.cnzz.com",
+        "s96.cnzz.com",
+        "q11.cnzz.com",
+        "thy.dacedsfa.cn",
+        "xg.whsbpw.cn",
+        "s19.cnzz.com",
+        "z8.cnzz.com",
+        "s4.cnzz.com",
+        "f5w.as12df.top",
+        "ae01.alicdn.com",
+        "www.92424.cn",
+        "k.wudejia.com",
+        "vivovip.mmszxc.top",
+        "qiu.xixiqiu.com",
+        "cdnjs.hnfenxun.com",
+        "cms.qdwght.com"
+    ],
+    "parses": [
+        {
+            "name": "解析1",
+            "type": 0,
+            "url": "https://xxx.xxx?jx="
+        }
+    ],
+    "lives": [
+        {
+            "group": "自定义",
+            "channels": [
+                {
+                    "name": "直播源"
+                }
+            ]
+        }
+    ],
     "ijk": [
         {
             "group": "软解码",
@@ -160,94 +236,6 @@
                 }
             ]
         }
-    ],
-    "ads": [
-        "mimg.0c1q0l.cn",
-        "www.googletagmanager.com",
-        "www.google-analytics.com",
-        "mc.usihnbcq.cn",
-        "mg.g1mm3d.cn",
-        "mscs.svaeuzh.cn",
-        "cnzz.hhttm.top",
-        "tp.vinuxhome.com",
-        "cnzz.mmstat.com",
-        "www.baihuillq.com",
-        "s23.cnzz.com",
-        "z3.cnzz.com",
-        "c.cnzz.com",
-        "stj.v1vo.top",
-        "z12.cnzz.com",
-        "img.mosflower.cn",
-        "tips.gamevvip.com",
-        "ehwe.yhdtns.com",
-        "xdn.cqqc3.com",
-        "www.jixunkyy.cn",
-        "sp.chemacid.cn",
-        "hm.baidu.com",
-        "s9.cnzz.com",
-        "z6.cnzz.com",
-        "um.cavuc.com",
-        "mav.mavuz.com",
-        "wofwk.aoidf3.com",
-        "z5.cnzz.com",
-        "xc.hubeijieshikj.cn",
-        "tj.tianwenhu.com",
-        "xg.gars57.cn",
-        "k.jinxiuzhilv.com",
-        "cdn.bootcss.com",
-        "ppl.xunzhuo123.com",
-        "xomk.jiangjunmh.top",
-        "img.xunzhuo123.com",
-        "z1.cnzz.com",
-        "s13.cnzz.com",
-        "xg.huataisangao.cn",
-        "z7.cnzz.com",
-        "xg.huataisangao.cn",
-        "z2.cnzz.com",
-        "s96.cnzz.com",
-        "q11.cnzz.com",
-        "thy.dacedsfa.cn",
-        "xg.whsbpw.cn",
-        "s19.cnzz.com",
-        "z8.cnzz.com",
-        "s4.cnzz.com",
-        "f5w.as12df.top",
-        "ae01.alicdn.com",
-        "www.92424.cn",
-        "k.wudejia.com",
-        "vivovip.mmszxc.top",
-        "qiu.xixiqiu.com",
-        "cdnjs.hnfenxun.com",
-        "cms.qdwght.com"
-    ],
-    "lives": [
-        {
-            "group": "自定义",
-            "channels": [
-                {
-                    "name": "直播源"
-                }
-            ]
-        }
-    ],
-    "parses": [
-        {
-            "name": "解析1",
-            "type": 0,
-            "url": "https://xxx.xxx?jx="
-        }
-    ],
-    "flags": [
-        "youku",
-        "qq",
-        "iqiyi",
-        "qiyi",
-        "letv",
-        "sohu",
-        "tudou",
-        "pptv",
-        "mgtv",
-        "wasu"
     ],
     "spider": "",
     "sites": [
@@ -476,17 +464,17 @@
             ]
         },
         {
-            "key": "光速┃采十",
-            "name": "[5832KB/s|243ms|稳] 光速┃采十",
+            "key": "新浪┃采八",
+            "name": "[38675KB/s|379ms|稳] 新浪┃采八",
             "type": 1,
-            "api": "https://api.guangsuapi.com/api.php/provide/vod/",
+            "api": "http://api.xinlangapi.com/xinlangapi.php/provide/vod/",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0
         },
         {
             "key": "金鹰┃采一",
-            "name": "[4438KB/s|495ms|稳] 金鹰┃采一",
+            "name": "[24039KB/s|484ms|稳] 金鹰┃采一",
             "type": 1,
             "api": "https://jyzyapi.com/provide/vod/",
             "searchable": 1,
@@ -495,7 +483,7 @@
         },
         {
             "key": "豪华┃采三",
-            "name": "[4369KB/s|270ms|稳] 豪华┃采三",
+            "name": "[22892KB/s|404ms|稳] 豪华┃采三",
             "type": 1,
             "api": "https://hhzyapi.com/api.php/provide/vod",
             "searchable": 1,
@@ -503,31 +491,34 @@
             "filterable": 0
         },
         {
-            "key": "新浪┃采八",
-            "name": "[3960KB/s|353ms|稳] 新浪┃采八",
+            "key": "光速┃采十",
+            "name": "[22796KB/s|383ms|稳] 光速┃采十",
             "type": 1,
-            "api": "http://api.xinlangapi.com/xinlangapi.php/provide/vod/",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0
-        },
-        {
-            "key": "茅台┃采四",
-            "name": "[1129KB/s|1627ms|稳] 茅台┃采四",
-            "type": 1,
-            "api": "https://caiji.maotaizy.cc/api.php/provide/vod/at/josn/",
+            "api": "https://api.guangsuapi.com/api.php/provide/vod/",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0
         },
         {
             "key": "🦚360┃采集",
-            "name": "[237KB/s|1240ms|中] 🦚360┃采集",
+            "name": "[976KB/s|446ms|稳] 🦚360┃采集",
             "type": 1,
             "api": "https://360zy.com/api.php/provide/vod?",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0
         }
+    ],
+    "flags": [
+        "youku",
+        "qq",
+        "iqiyi",
+        "qiyi",
+        "letv",
+        "sohu",
+        "tudou",
+        "pptv",
+        "mgtv",
+        "wasu"
     ]
 }
