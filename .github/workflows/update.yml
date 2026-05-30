@@ -41,4 +41,6 @@ jobs:
           
           # 推送到 GitHub（全量）
           git remote set-url origin https://zouzho:${GH_PAT}@github.com/zouzho/zztvbox.git
+          git push origin HEAD:main
+          git push origin HEAD:master
           git push origin HEAD:master
