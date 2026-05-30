@@ -2,12 +2,15 @@ name: Auto Update JSON Every Minute
 
 on:
   schedule:
-    # 提示：GitHub 规定最快约 5-10 分钟执行一次，无法真正做到严格的每 1 分钟
     - cron: '*/1 * * * *'
-  workflow_dispatch: # 允许你在 GitHub 页面上手动点击运行测试
+  workflow_dispatch: 
 
 permissions:
-  contents: write # 赋予工作流向仓库推送代码的权限
+  contents: write 
+
+# 核心修复：在这里加入全局环境变量，强制工作流内部的 Action 使用 Node 24 运行
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
 
 jobs:
   update-json:
@@ -29,11 +32,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # 配置 Git 机器人信息
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@://github.com"
           
-          # 检查是否有文件变动
           git add 01.json
           if git diff --staged --quiet; then
             echo "没有检测到文件变化，跳过提交。"
