@@ -1,0 +1,45 @@
+name: Daily Merge TVBox JSON
+
+on:
+  schedule:
+    # 核心配置：北京时间每天 05:30 = UTC 时间每天 21:30
+    # 表达式含义：30分 21时 每天 每月 每周
+    - cron: '30 21 * * *'
+  workflow_dispatch: # 允许手动点击运行，方便测试
+
+permissions:
+  contents: write # 赋予工作流向仓库推送合并后文件的权限
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true' # 强制使用 Node 24 避免环境警告
+
+jobs:
+  merge-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 1. 检出仓库代码
+        uses: actions/checkout@v4
+
+      - name: 2. 设置 Python 环境
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: 3. 执行合并脚本
+        run: |
+          python merge_tvbox.py
+
+      - name: 4. 提交并推送合并后的 zztvbox.json
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@://github.com"
+          git add -A
+          git diff --cached --quiet && echo "无变更" && exit 0
+          git commit -m "auto update: $(date -u '+%Y-%m-%d %H:%M:%S')"
+          
+          # 推送到 GitHub（全量）
+          git remote set-url origin https://zouzho:${GH_PAT}@github.com/zouzho/zztvbox.git
+          git push origin HEAD:main
