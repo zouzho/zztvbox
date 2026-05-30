@@ -5,8 +5,8 @@ import json
 WORK_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # 2. 定义文件的绝对路径
-file_a_path = os.path.join(WORK_DIR, "tvbox.json")
-file_b_path = os.path.join(WORK_DIR, "tvbox01.json")
+file_a_path = os.path.join(WORK_DIR, "tvbox01.json")
+file_b_path = os.path.join(WORK_DIR, "tvbox.json")
 output_path = os.path.join(WORK_DIR, "zztvbox.json")
 
 # 初始化最终的汇总容器
