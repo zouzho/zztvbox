@@ -1,4 +1,14 @@
 {
+    "lives": [
+        {
+            "group": "自定义",
+            "channels": [
+                {
+                    "name": "直播源"
+                }
+            ]
+        }
+    ],
     "ads": [
         "mimg.0c1q0l.cn",
         "www.googletagmanager.com",
@@ -57,23 +67,6 @@
         "qiu.xixiqiu.com",
         "cdnjs.hnfenxun.com",
         "cms.qdwght.com"
-    ],
-    "parses": [
-        {
-            "name": "解析1",
-            "type": 0,
-            "url": "https://xxx.xxx?jx="
-        }
-    ],
-    "lives": [
-        {
-            "group": "自定义",
-            "channels": [
-                {
-                    "name": "直播源"
-                }
-            ]
-        }
     ],
     "ijk": [
         {
@@ -237,7 +230,25 @@
             ]
         }
     ],
-    "spider": "",
+    "parses": [
+        {
+            "name": "解析1",
+            "type": 0,
+            "url": "https://xxx.xxx?jx="
+        }
+    ],
+    "flags": [
+        "youku",
+        "qq",
+        "iqiyi",
+        "qiyi",
+        "letv",
+        "sohu",
+        "tudou",
+        "pptv",
+        "mgtv",
+        "wasu"
+    ],
     "sites": [
         {
             "key": "量子资源",
@@ -464,61 +475,140 @@
             ]
         },
         {
-            "key": "新浪┃采八",
-            "name": "[38675KB/s|379ms|稳] 新浪┃采八",
-            "type": 1,
-            "api": "http://api.xinlangapi.com/xinlangapi.php/provide/vod/",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0
-        },
-        {
-            "key": "金鹰┃采一",
-            "name": "[24039KB/s|484ms|稳] 金鹰┃采一",
-            "type": 1,
-            "api": "https://jyzyapi.com/provide/vod/",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0
-        },
-        {
             "key": "豪华┃采三",
-            "name": "[22892KB/s|404ms|稳] 豪华┃采三",
+            "name": "[1346KB/s|366ms|稳] 豪华┃采三",
             "type": 1,
             "api": "https://hhzyapi.com/api.php/provide/vod",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 0
+            "filterable": 0,
+            "categories": [
+                "科幻片",
+                "战争片",
+                "恐怖片",
+                "喜剧片",
+                "动作片",
+                "动画片",
+                "纪录片",
+                "伦理片",
+                "国产剧",
+                "欧美剧",
+                "香港剧",
+                "海外剧",
+                "大陆综艺",
+                "港台综艺",
+                "日韩综艺",
+                "欧美综艺"
+            ]
+        },
+        {
+            "key": "金鹰┃采一",
+            "name": "[908KB/s|621ms|稳] 金鹰┃采一",
+            "type": 1,
+            "api": "https://jyzyapi.com/provide/vod/",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "categories": [
+                "科幻片",
+                "战争片",
+                "恐怖片",
+                "喜剧片",
+                "动作片",
+                "动画片",
+                "纪录片",
+                "伦理片",
+                "国产剧",
+                "欧美剧",
+                "香港剧",
+                "海外剧",
+                "大陆综艺",
+                "港台综艺",
+                "日韩综艺",
+                "欧美综艺"
+            ]
         },
         {
             "key": "光速┃采十",
-            "name": "[22796KB/s|383ms|稳] 光速┃采十",
+            "name": "[875KB/s|515ms|稳] 光速┃采十",
             "type": 1,
             "api": "https://api.guangsuapi.com/api.php/provide/vod/",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 0
+            "filterable": 0,
+            "categories": [
+                "科幻片",
+                "战争片",
+                "恐怖片",
+                "喜剧片",
+                "动作片",
+                "动画片",
+                "纪录片",
+                "伦理片",
+                "国产剧",
+                "欧美剧",
+                "香港剧",
+                "海外剧",
+                "大陆综艺",
+                "港台综艺",
+                "日韩综艺",
+                "欧美综艺"
+            ]
+        },
+        {
+            "key": "新浪┃采八",
+            "name": "[846KB/s|520ms|稳] 新浪┃采八",
+            "type": 1,
+            "api": "http://api.xinlangapi.com/xinlangapi.php/provide/vod/",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "categories": [
+                "科幻片",
+                "战争片",
+                "恐怖片",
+                "喜剧片",
+                "动作片",
+                "动画片",
+                "纪录片",
+                "伦理片",
+                "国产剧",
+                "欧美剧",
+                "香港剧",
+                "海外剧",
+                "大陆综艺",
+                "港台综艺",
+                "日韩综艺",
+                "欧美综艺"
+            ]
         },
         {
             "key": "🦚360┃采集",
-            "name": "[976KB/s|446ms|稳] 🦚360┃采集",
+            "name": "[823KB/s|898ms|稳] 🦚360┃采集",
             "type": 1,
             "api": "https://360zy.com/api.php/provide/vod?",
             "searchable": 1,
             "quickSearch": 1,
-            "filterable": 0
+            "filterable": 0,
+            "categories": [
+                "科幻片",
+                "战争片",
+                "恐怖片",
+                "喜剧片",
+                "动作片",
+                "动画片",
+                "纪录片",
+                "伦理片",
+                "国产剧",
+                "欧美剧",
+                "香港剧",
+                "海外剧",
+                "大陆综艺",
+                "港台综艺",
+                "日韩综艺",
+                "欧美综艺"
+            ]
         }
     ],
-    "flags": [
-        "youku",
-        "qq",
-        "iqiyi",
-        "qiyi",
-        "letv",
-        "sohu",
-        "tudou",
-        "pptv",
-        "mgtv",
-        "wasu"
-    ]
+    "spider": ""
 }
