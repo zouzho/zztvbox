@@ -2,10 +2,10 @@
   "spider": "",
   "sites": [
     {
-      "key": "豪华┃采三",
-      "name": "[2663KB/s|273ms|稳] 豪华┃采三",
+      "key": "新浪┃采八",
+      "name": "[12086KB/s|378ms|稳] 新浪┃采八",
       "type": 1,
-      "api": "https://hhzyapi.com/api.php/provide/vod",
+      "api": "http://api.xinlangapi.com/xinlangapi.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
@@ -30,7 +30,7 @@
     },
     {
       "key": "金鹰┃采一",
-      "name": "[2522KB/s|562ms|稳] 金鹰┃采一",
+      "name": "[10628KB/s|576ms|稳] 金鹰┃采一",
       "type": 1,
       "api": "https://jyzyapi.com/provide/vod/",
       "searchable": 1,
@@ -57,7 +57,7 @@
     },
     {
       "key": "光速┃采十",
-      "name": "[2354KB/s|325ms|稳] 光速┃采十",
+      "name": "[10300KB/s|383ms|稳] 光速┃采十",
       "type": 1,
       "api": "https://api.guangsuapi.com/api.php/provide/vod/",
       "searchable": 1,
@@ -83,10 +83,10 @@
       ]
     },
     {
-      "key": "新浪┃采八",
-      "name": "[1750KB/s|332ms|稳] 新浪┃采八",
+      "key": "豪华┃采三",
+      "name": "[8838KB/s|395ms|稳] 豪华┃采三",
       "type": 1,
-      "api": "http://api.xinlangapi.com/xinlangapi.php/provide/vod/",
+      "api": "https://hhzyapi.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
@@ -111,9 +111,36 @@
     },
     {
       "key": "🦚360┃采集",
-      "name": "[415KB/s|970ms|中] 🦚360┃采集",
+      "name": "[1964KB/s|267ms|稳] 🦚360┃采集",
       "type": 1,
       "api": "https://360zy.com/api.php/provide/vod?",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "categories": [
+        "科幻片",
+        "战争片",
+        "恐怖片",
+        "喜剧片",
+        "动作片",
+        "动画片",
+        "纪录片",
+        "伦理片",
+        "国产剧",
+        "欧美剧",
+        "香港剧",
+        "海外剧",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺"
+      ]
+    },
+    {
+      "key": "茅台┃采四",
+      "name": "[408KB/s|948ms|中] 茅台┃采四",
+      "type": 1,
+      "api": "https://caiji.maotaizy.cc/api.php/provide/vod/at/josn/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
