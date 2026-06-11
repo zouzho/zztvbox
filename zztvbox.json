@@ -1,4 +1,33 @@
 {
+    "flags": [
+        "youku",
+        "qq",
+        "iqiyi",
+        "qiyi",
+        "letv",
+        "sohu",
+        "tudou",
+        "pptv",
+        "mgtv",
+        "wasu"
+    ],
+    "parses": [
+        {
+            "name": "解析1",
+            "type": 0,
+            "url": "https://xxx.xxx?jx="
+        }
+    ],
+    "lives": [
+        {
+            "group": "自定义",
+            "channels": [
+                {
+                    "name": "直播源"
+                }
+            ]
+        }
+    ],
     "spider": "",
     "ijk": [
         {
@@ -158,35 +187,6 @@
                     "category": 4,
                     "name": "mediacodec-hevc",
                     "value": "1"
-                }
-            ]
-        }
-    ],
-    "flags": [
-        "youku",
-        "qq",
-        "iqiyi",
-        "qiyi",
-        "letv",
-        "sohu",
-        "tudou",
-        "pptv",
-        "mgtv",
-        "wasu"
-    ],
-    "parses": [
-        {
-            "name": "解析1",
-            "type": 0,
-            "url": "https://xxx.xxx?jx="
-        }
-    ],
-    "lives": [
-        {
-            "group": "自定义",
-            "channels": [
-                {
-                    "name": "直播源"
                 }
             ]
         }
@@ -417,35 +417,8 @@
             ]
         },
         {
-            "key": "新浪┃采八",
-            "name": "[14070KB/s|518ms|稳] 新浪┃采八",
-            "type": 1,
-            "api": "http://api.xinlangapi.com/xinlangapi.php/provide/vod/",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "categories": [
-                "科幻片",
-                "战争片",
-                "恐怖片",
-                "喜剧片",
-                "动作片",
-                "动画片",
-                "纪录片",
-                "伦理片",
-                "国产剧",
-                "欧美剧",
-                "香港剧",
-                "海外剧",
-                "大陆综艺",
-                "港台综艺",
-                "日韩综艺",
-                "欧美综艺"
-            ]
-        },
-        {
             "key": "速播 | 采集",
-            "name": "[12627KB/s|593ms|稳] 速播 | 采集",
+            "name": "[1789KB/s|395ms|稳] 速播 | 采集",
             "type": 1,
             "api": "https://subocaiji.com/api.php/provide/vod/",
             "searchable": 1,
@@ -471,10 +444,37 @@
             ]
         },
         {
-            "key": "金鹰┃采一",
-            "name": "[4870KB/s|622ms|稳] 金鹰┃采一",
+            "key": "新浪┃采八",
+            "name": "[1600KB/s|410ms|稳] 新浪┃采八",
             "type": 1,
-            "api": "https://jyzyapi.com/provide/vod/",
+            "api": "http://api.xinlangapi.com/xinlangapi.php/provide/vod/",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "categories": [
+                "科幻片",
+                "战争片",
+                "恐怖片",
+                "喜剧片",
+                "动作片",
+                "动画片",
+                "纪录片",
+                "伦理片",
+                "国产剧",
+                "欧美剧",
+                "香港剧",
+                "海外剧",
+                "大陆综艺",
+                "港台综艺",
+                "日韩综艺",
+                "欧美综艺"
+            ]
+        },
+        {
+            "key": "光速┃采十",
+            "name": "[1065KB/s|447ms|稳] 光速┃采十",
+            "type": 1,
+            "api": "https://api.guangsuapi.com/api.php/provide/vod/",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
@@ -499,7 +499,7 @@
         },
         {
             "key": "豪华┃采三",
-            "name": "[4776KB/s|445ms|稳] 豪华┃采三",
+            "name": "[1048KB/s|307ms|稳] 豪华┃采三",
             "type": 1,
             "api": "https://hhzyapi.com/api.php/provide/vod",
             "searchable": 1,
@@ -526,7 +526,7 @@
         },
         {
             "key": "金鹰 | 采集",
-            "name": "[3225KB/s|612ms|稳] 金鹰 | 采集",
+            "name": "[940KB/s|595ms|稳] 金鹰 | 采集",
             "type": 1,
             "api": "https://jyzyapi.com/api.php/provide/vod/",
             "searchable": 1,
@@ -552,10 +552,10 @@
             ]
         },
         {
-            "key": "光速┃采十",
-            "name": "[3118KB/s|796ms|稳] 光速┃采十",
+            "key": "金鹰┃采一",
+            "name": "[936KB/s|371ms|稳] 金鹰┃采一",
             "type": 1,
-            "api": "https://api.guangsuapi.com/api.php/provide/vod/",
+            "api": "https://jyzyapi.com/provide/vod/",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
@@ -580,7 +580,7 @@
         },
         {
             "key": "ikun | 采集",
-            "name": "[1726KB/s|453ms|稳] ikun | 采集",
+            "name": "[776KB/s|1237ms|稳] ikun | 采集",
             "type": 1,
             "api": "https://ikunzyapi.com/api.php/provide/vod/",
             "searchable": 1,
@@ -606,10 +606,10 @@
             ]
         },
         {
-            "key": "🦚360┃采集",
-            "name": "[1683KB/s|1389ms|稳] 🦚360┃采集",
+            "key": "茅台┃采四",
+            "name": "[639KB/s|1555ms|稳] 茅台┃采四",
             "type": 1,
-            "api": "https://360zy.com/api.php/provide/vod?",
+            "api": "https://caiji.maotaizy.cc/api.php/provide/vod/at/josn/",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
@@ -634,9 +634,36 @@
         },
         {
             "key": "樱花 | 采集",
-            "name": "[764KB/s|627ms|稳] 樱花 | 采集",
+            "name": "[567KB/s|1321ms|稳] 樱花 | 采集",
             "type": 1,
             "api": "https://m3u8.apiyhzy.com/api.php/provide/vod/",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "categories": [
+                "科幻片",
+                "战争片",
+                "恐怖片",
+                "喜剧片",
+                "动作片",
+                "动画片",
+                "纪录片",
+                "伦理片",
+                "国产剧",
+                "欧美剧",
+                "香港剧",
+                "海外剧",
+                "大陆综艺",
+                "港台综艺",
+                "日韩综艺",
+                "欧美综艺"
+            ]
+        },
+        {
+            "key": "🦚360┃采集",
+            "name": "[478KB/s|2564ms|中] 🦚360┃采集",
+            "type": 1,
+            "api": "https://360zy.com/api.php/provide/vod?",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0,
